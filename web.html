@@ -4,29 +4,105 @@
     <style>
         body{
             background-color: #333;
-            color: blue; 
+            padding: 1vw;
+            color: orange; 
+            background-repeat: no-repeat;
+            background-size: cover;
             text-align: center;
+            height: 100vh;
+            border: #222 solid 10px;
+            border-radius: 1vw;
         }
-        main{
+        main,p{
             
             background-color: #222;
             padding: 1vh;
-            border-radius: 1vh;
+            border-radius: 1vw;
             margin: 10px;
+            display: flex;
+            justify-content: center;
         }
-        #dev{
+        footer{
             background-color: #222;
             padding: 1vh;
-            border-radius: 1vh;
-            color: orange;
+            border-radius: 1vw;
             margin: 10px;
+        }
+        td,th{
+            border: 1px solid #333;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        th{
+            color: orange;
+        }
+        p{
+            color: white;
         }
     </style>
 </head>
 <body>
+    <h1>Form</h1>
+    <p>form is section of webpage  disigned to collect user input and submit it to a server of processing.</p>
+    <h1>Forms Tags </h1>
     <main>
-        <h1>nothing </h1>
+        <table>
+            <tr>
+                <th>Tags</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>difine a form</td>
+            </tr>
+            <tr>
+                <td>Label</td>
+                <td>defines a Label for particular id</td>
+            </tr>
+            <tr>
+                <td>input</td>
+                <td>defines a input field</td>
+            </tr>
+            <tr>
+                <td>fieldset</td>
+                <td>group related form element together</td>
+            </tr>
+            <tr>
+                <td>Legend</td>
+                <td>provides a title for fieldset</td>
+            </tr>
+        </table>
     </main>
-    <div id="dev"><h3><b>-:Developers:-</b></h3><br>Vinod C V - RVUN25CSE316<br>Vishal Batle - RVUN25CSE323</div>
+    <h1>Forms Attributes</h1>
+    <main>
+        <table>
+            <tr>
+                <th>Attributes</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>action</td>
+                <td>specify the url where the form data will be sent</td>
+            </tr>
+            <tr>
+                <td>method</td>
+                <td>difine http method used to submit the form data</td>
+            </tr>
+            <tr>
+                <td>autocomplete</td>
+                <td>control whether the browser should provide autofill suggetions</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>difine kind of input control </td>
+            </tr>
+            <tr>
+                <td>required</td>
+                <td>enforce client side validation</td>
+            </tr>
+        </table>
+    </main><br><hr>
+    <footer><h3><b>-:Developers:-</b></h3>Vinod C V - RVUN25CSE316<br>Vishal Batle - RVUN25CSE323</footer>
 </body>
 </html>
